@@ -1,0 +1,47 @@
+.main_footer{
+    margin-top: 50px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    div.section{
+        height: 150px;
+
+        ul{
+            list-style: none;
+            li.head{
+                color: var(--basic-white);
+                font-weight: 500;
+                font-size: 15px;
+            }
+            li{
+                letter-spacing: 1px;
+                padding: 8px 0;
+                a{
+                    color: var(--light-grey);
+                    font-weight: 200;
+                    font-size: 13px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    transition: all .2s;
+                }
+
+                @media screen and (prefers-color-scheme: light) {
+                    a{
+                        color: var(--dark-grey);
+                    }
+                }
+            }
+        }
+    }
+
+    div.first{
+        h2{
+            font-size: 40px;
+            color: var(--basic-white);
+        }
+        p.thanks{
+            font-size: 13px;
+            color: var(--medium-grey);
+        }
+    }
+}

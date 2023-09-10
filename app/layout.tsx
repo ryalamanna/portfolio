@@ -1,6 +1,9 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { Head } from 'next/document'
+import Nav from './components/nav/nav'
+import Footer from './components/Footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +19,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      {/* <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet"/>
+      </Head> */}
+      <body className={inter.className}>
+          <Nav/>
+          {children}
+          <hr className='footerDivider'/>
+          <Footer/>
+      </body>
     </html>
   )
 }

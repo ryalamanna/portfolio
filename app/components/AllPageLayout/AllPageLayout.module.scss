@@ -1,0 +1,25 @@
+
+.AllPageLayout{
+    margin-top:100px;
+}
+h1.heading{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+p.sub_head{
+    font-size: 24px;
+    color: var(--medium-grey);
+    margin-top: 15px;
+}
+
+hr.main_divider{
+    margin:50px 0;
+    border-color: #ffffff15;
+}
+
+@media (prefers-color-scheme : light) {
+    hr.main_divider{
+        border-color: #9797971a;
+    }
+}

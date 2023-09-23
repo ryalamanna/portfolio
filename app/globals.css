@@ -108,6 +108,10 @@ a {
   transition: all .2s;
 }
 
+.dddBtn:active{
+  box-shadow: inset 0em .1em 3px rgba(218, 218, 218, 0.070) , 0 3px 3px #00000041;
+}
+
 .hover_scale{
   cursor: pointer;
   transition: transform .2s;

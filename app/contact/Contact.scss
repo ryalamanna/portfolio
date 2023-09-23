@@ -101,19 +101,6 @@
                         color: var(--text-light-gray);
                     }
                 }
-                input:invalid{
-                    animation : error-animation 1.4s ease-in-out infinite;
-                }
-
-                @keyframes error-animation {
-                    0% , 100% {
-                        border-color: #f513134d;
-                    }
-                    50%{
-                        border-color: #f51313c4;
-                    }
-                    
-                }
             }
             
             textarea{
@@ -141,6 +128,22 @@
                 button{
                     margin: 20px 0;
                 }
+            }
+        }
+        form.validated {
+            input:invalid , textarea:invalid{
+                border-bottom: 1px solid;
+                animation : error-animation 1.4s ease-in-out infinite !important;
+            }
+
+            @keyframes error-animation {
+                0% , 100% {
+                    border-color: #f513134d;
+                }
+                50%{
+                    border-color: #f51313c4;
+                }
+                
             }
         }
     }

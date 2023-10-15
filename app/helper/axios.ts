@@ -2,7 +2,7 @@ import axioss from 'axios';
 
 // Create an Axios instance
 const axios = axioss.create({
-    baseURL: window.location.origin + 'api', // Replace with your backend API URL
+    baseURL: window.location.origin + '/api', // Replace with your backend API URL
 });
 
 // Request interceptor

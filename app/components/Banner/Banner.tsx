@@ -11,7 +11,7 @@ const Banner = () => {
             <button>Get in touch</button>
         </div>
         <div className={Styles.right}>
-            <img src="/geist.png" alt="" />
+            <img src="/ryal.png" alt="" />
         </div>
     </header>
   )

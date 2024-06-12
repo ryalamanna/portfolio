@@ -21,7 +21,7 @@
 }
 
 .globalContainer{
-  padding: 0 15vw;
+  padding: 0 15%;
 }
 
 * {
@@ -130,4 +130,36 @@ a {
   .footerDivider{
     border: 1px solid #75757510;
   }
+}
+
+@media (max-width:767px) {
+  .globalContainer{
+    padding: 0 7%;
+  }
+}
+
+/* ====== BLOG STYLES ======= */
+
+.blog_section_heading{
+  color: var(--dark-grey);
+  font-weight: 500;
+  opacity: .5;
+  margin-top: 30px;
+}
+
+.blog_paragraph{
+  font-weight: 300;
+  color: #808080;
+  margin-top: 20px;
+  line-height: 27px;
+}
+
+.blog_links{
+    color: #ffffff;
+    font-weight: inherit;
+    text-decoration: underline;
+}
+
+.blog_image{
+  margin-top: 30px;
 }

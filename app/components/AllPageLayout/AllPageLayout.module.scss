@@ -23,3 +23,13 @@ hr.main_divider{
         border-color: #9797971a;
     }
 }
+
+@media (max-width:767px) {
+    h1.heading{
+        font-size: 45px;
+    }
+    p.sub_head{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}

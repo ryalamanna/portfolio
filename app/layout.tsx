@@ -25,7 +25,7 @@ export default function RootLayout({
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet"/>
       </Head> */}
       <body className={inter.className}>
-          {/* <Nav/> */}
+          <Nav/>
           {children}
           <hr className='footerDivider'/>
           <Footer/>

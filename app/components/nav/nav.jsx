@@ -11,9 +11,9 @@ const Nav = () => {
                     <li>
                         <Link href="/about">About</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href="/work">Work</Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link href="/contact">Contact</Link>
                     </li>
@@ -41,14 +41,14 @@ const Nav = () => {
                             <img src="/Github.png" alt="" />
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <img src="/Line9.png" alt="" />
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                         <Link href="">
                             <img src="/Sun.png" alt="" />
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </div>

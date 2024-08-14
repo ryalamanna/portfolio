@@ -11,16 +11,19 @@ const KnowMe = () => {
                 p = 'Who I am and what I do'
                 i = '/meAni.png'
                 class= 'first-card'
+                link='/about'
             />
             <SingleCard
                 h = 'Projects'
                 p = 'Showcasing Some Notable Digital Creations'
                 i = '/proj.png'
+                link='/projects'
             />
             <SingleCard
                 h = 'Hobbies'
                 p = 'Passions Beyond the Pixel: Exploring Creativity'
                 i = '/hobbie.png'
+                link='/hobbies'
             />
             <SingleCard
                 h = 'Tech Stack'

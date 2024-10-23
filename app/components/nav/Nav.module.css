@@ -66,3 +66,31 @@
     filter: invert(1);
   }
 }
+
+
+@media (max-width:767px) {
+  .navbar{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .navbar .logo{
+    margin: 10px 0;
+  }
+  .navbar ul {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  .navbar ul li {
+    display: inline-block;
+    margin: 5px 0;
+  }
+  .navbar .social{
+    margin: 10px 0 20px 0;
+    display: inline-block;
+  }
+}

@@ -3,6 +3,9 @@
     padding-bottom: 80px;
     display: grid;
     grid-template-columns: 4fr 1fr 1fr;
+    @media (max-width:767px) {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
     div.section{
         height: 150px;
 

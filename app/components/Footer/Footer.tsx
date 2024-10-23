@@ -17,9 +17,9 @@ const Footer = () => {
                         <li className="font-regular">
                             <a href="/about">About</a>
                         </li>
-                        <li className="font-regular">
+                        {/* <li className="font-regular">
                             <a href="/work">Work</a>
-                        </li>
+                        </li> */}
                         <li className="font-regular">
                             <a href="/tech-stack">Tech Stack</a>
                         </li>
@@ -32,20 +32,20 @@ const Footer = () => {
                     <ul>
                         <li className="head font-bold">Elsewhere</li>
                         <li className="font-regular">
-                            <a href="">Email</a>
+                            <a target="_blank" href="mailto:ryalrafter2001@gmail.com">Email</a>
                         </li>
                         <li className="font-regular">
-                            <a href="">LinkedIn</a>
+                            <a target="_blank" href="https://www.linkedin.com/in/ryal-amanna-99a263232/">LinkedIn</a>
                         </li>
                         <li className="font-regular">
-                            <a href="">GitHub</a>
+                            <a target="_blank" href="https://github.com/ryalamanna">GitHub</a>
                         </li>
-                        <li className="font-regular">
-                            <a href="">Twitter</a>
-                        </li>
-                        <li className="font-regular">
-                            <a href="">Discord</a>
-                        </li>
+                        {/* <li className="font-regular">
+                            <a target="_blank" href="">Twitter</a>
+                        </li> */}
+                        {/* <li className="font-regular">
+                            <a target="_blank" href="">Discord</a>
+                        </li> */}
                     </ul>
                 </div>
                 <GoUp />

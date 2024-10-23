@@ -20,14 +20,17 @@ const Nav = () => {
                     <li>
                         <Link href="/tech-stack">Tech Stack</Link>
                     </li>
+                    <li>
+                        <Link href="/travel-blogs">Travel Blogs</Link>
+                    </li>
                 </ul>
                 <ul className={styles.social}>
                     <li>
-                        <Link href="#">
+                        <Link target="_blank" href="https://www.linkedin.com/in/ryal-amanna-99a263232/">
                             <img src="/Linkedin.png" alt="" />
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href="#">
                             <img
                                 className={styles.noInverse}
@@ -35,9 +38,9 @@ const Nav = () => {
                                 alt=""
                             />
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
-                        <Link href="#">
+                        <Link target="_blank" href="https://github.com/ryalamanna">
                             <img src="/Github.png" alt="" />
                         </Link>
                     </li>

@@ -23,7 +23,7 @@ const KnowMe = () => {
                 h = 'Hobbies'
                 p = 'Passions Beyond the Pixel: Exploring Creativity'
                 i = '/hobbie.png'
-                link='/hobbies'
+                link='/travel-blogs'
             />
             <SingleCard
                 h = 'Tech Stack'

@@ -1,5 +1,16 @@
 import Layout from "../../components/AllPageLayout/Layout"
 import Image from 'next/image'
+import img1 from '../../../public/blog-images/2024/IMG_20240512_072710.webp'
+import img2 from '../../../public/blog-images/2024/IMG_20240512_072638.webp'
+import img3 from '../../../public/blog-images/2024/IMG-20240513-WA00811.webp'
+import img4 from '../../../public/blog-images/2024/IMG-20240513-WA0147.webp'
+import img5 from '../../../public/blog-images/2024/IMG_20240512_1126521.webp'
+import img6 from '../../../public/blog-images/2024/IMG_20240512_113438.webp'
+import img7 from '../../../public/blog-images/2024/IMG-20240513-WA01471.webp'
+
+import img8 from '../../../public/blog-images/2024/IMG-20240513-WA0071.jpg'
+import img9 from '../../../public/blog-images/2024/IMG-20240513-WA0136.jpg'
+import img10 from '../../../public/blog-images/2024/IMG_20240512_112652.jpg'
 
 const page = () => {
   return (
@@ -9,7 +20,7 @@ const page = () => {
         <p className="blog_paragraph">12<sup>th</sup> May 2024. The day started early as we began our journey to Bettada Rangaswami Betta, our main and initial destination. The destination was almost 100 km from Udupi. We quickly had a cup of tea ☕️ in Manipal to brush off our sleepy eyes and get ready for the stretch. Starting off, there were three of us: me, Akanksh, and Ganesh. Two other riders, Anirudh and Brahmananda, were to join us in Karkala. In no time, we reached Karkala and finished our breakfast there. It was a tiny hotel in Karkala that was open at 6 in the morning and served us a really good breakfast. OFF WE GO! 🏍️ Now that we all had our breakfast, we set our path to the destination.</p>
         <Image
           className="blog_image"
-          src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG_20240512_072710.jpg'}
+          src={img1}
           style={{width : '100%', height : 'auto'}}
           width={'1000'}
           height={'700'}
@@ -17,7 +28,7 @@ const page = () => {
         />
         <Image
           className="blog_image"
-          src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG_20240512_072638.jpg'}
+          src={img2}
           style={{width : '100%', height : 'auto'}}
           width={'1000'}
           height={'700'}
@@ -41,7 +52,7 @@ const page = () => {
         </p>
         <Image
           className="blog_image"
-          src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG-20240513-WA00811.jpg'}
+          src={img3}
           style={{width : '100%', height : 'auto'}}
           width={'1000'}
           height={'700'}
@@ -49,7 +60,7 @@ const page = () => {
         />
         <Image
           className="blog_image"
-          src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG-20240513-WA0147.jpg'}
+          src={img4}
           style={{width : '100%', height : 'auto'}}
           width={'1000'}
           height={'700'}
@@ -62,7 +73,7 @@ const page = () => {
         <div style={{display : 'flex', columnGap : '20px' , flexWrap : 'wrap', justifyContent : 'space-evenly'}}>
           <Image
             className="blog_image"
-            src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG_20240512_1126521.jpg'}
+            src={img5}
             style={{minWidth : '45%', height : 'auto'}}
             width={'470'}
             height={'500'}
@@ -70,7 +81,7 @@ const page = () => {
           />
           <Image
             className="blog_image"
-            src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG_20240512_113438.jpg'}
+            src={img6}
             style={{minWidth : '45%',height : 'auto'}}
             width={'470'}
             height={'500'}
@@ -86,7 +97,7 @@ const page = () => {
         </p>
           <Image
             className="blog_image"
-            src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG-20240513-WA0055.jpg'}
+            src={img7}
             style={{width : '100%', height : 'auto'}}
             width={'1000'}
             height={'700'}
@@ -101,7 +112,7 @@ const page = () => {
         <div style={{display : 'flex', columnGap : '20px' , flexWrap : 'wrap', justifyContent : 'space-evenly'}}>
           <Image
             className="blog_image"
-            src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG-20240513-WA0136.jpg'}
+            src={img8}
             style={{minWidth : '30%', height : 'auto'}}
             width={'300'}
             height={'400'}
@@ -109,7 +120,7 @@ const page = () => {
           />
           <Image
             className="blog_image"
-            src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG-20240513-WA0028.jpg'}
+            src={img9}
             style={{minWidth : '30%',height : 'auto'}}
             width={'300'}
             height={'400'}
@@ -117,7 +128,7 @@ const page = () => {
           />
           <Image
             className="blog_image"
-            src={'https://ryal-s3bucket-1.s3.amazonaws.com/portfolio/blog/2024/IMG-20240513-WA0071.jpg'}
+            src={img10}
             style={{minWidth : '30%',height : 'auto'}}
             width={'300'}
             height={'400'}

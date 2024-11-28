@@ -55,7 +55,7 @@ const Contact = () => {
                 <p>Want to discuss an opportunity to create something great? I’m ready when you are.</p>
             </div>
             <div className={s.right}>
-                <a className={`${s.btn} dddBtn hover_scale`} href="/contact"><img src="/contactCta.png" alt="" />Get in touch</a>
+                <Link className={`${s.btn} dddBtn hover_scale`} href="/contact"><img src="/contactCta.png" alt="" />Get in touch</Link>
             </div>
         </section>
     )

@@ -1,7 +1,16 @@
+@mixin for_phone_only {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
 .about{
     display: grid;
     grid-template-columns: 2fr 1fr;    
     margin-top: 60px;
+    @include for_phone_only{
+        grid-template-columns: 1fr;   
+    }
 
     .section{
         height: 1000px;
@@ -17,6 +26,7 @@
             img{
                 width: 85%;
             }
+            
         }
 
         .heading{
@@ -42,10 +52,16 @@
                 text-decoration: underline;
             }
         }
-        
+        @include for_phone_only{
+            display: none;
+        }
     }
     .section.left_section{
         padding-right: 100px;
+        @include for_phone_only{
+            padding-right: 0px;  
+            display: block;
+        }
 
         .signature{
             margin-top: 20px;

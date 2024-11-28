@@ -1,7 +1,18 @@
+@mixin for_phone_only {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+
 .tech_stack.cardWrapper{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     gap: 20px;
+    @include for_phone_only{
+        gap: 10px;
+        grid-template-columns: repeat(2 , 1fr);
+    }
 
     .single_card{
         background-color: var(--card-bg);
@@ -14,6 +25,14 @@
             border: 1px solid #d8d8d8;
         }
 
+        @include for_phone_only{
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
 
         img{
             position: absolute;
@@ -21,6 +40,11 @@
             top: 50%;
             transform: translate(-50% , -50%);
             width: 40%;
+            @include for_phone_only{
+                position: static;
+                transform: none;
+                margin-top: 15px;
+            }
         }
 
         .footer{
@@ -31,7 +55,13 @@
             align-items: center;
             justify-content: space-between;
             padding: 13px;
-
+            @include for_phone_only{
+                position: static;
+                padding-top: 10%;
+                justify-content: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
             p{
                 font-size: 14px;
             }

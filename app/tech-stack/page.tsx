@@ -86,6 +86,11 @@ const page = () => {
             subTitle : 'CSS pre-processor',
         },
         {
+            img : '/tailwind.png',
+            title : 'Tailwind CSS',
+            subTitle : 'CSS Framework',
+        },
+        {
             img : '/VSCode.png',
             title : 'VSCode',
             subTitle : 'Editor',
